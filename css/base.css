@@ -7,7 +7,7 @@
     --cinza-medio: #d7d9d9;
     --cinza-escuro: #333;
     --prata: #999;
-    --azul-claro: #dcedf5;
+    --azul-claro: #cfdbe0;
     --azul-medio: #2da4e7;
     --azul-escuro: #0a3e69;
     --vermelho-medio: #e33b3b;
@@ -74,4 +74,26 @@ body {
     font-family: var(--fonte-titulo);
     color: var(--cor-fonte-escura);
     margin-bottom: 2rem;
+    text-align: center;
+}
+
+.btn-padrao {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    max-height: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-padrao:hover {
+    transform: scale(1.1);
 }

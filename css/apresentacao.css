@@ -39,7 +39,7 @@
     display: block;
     width: 45px;
     height: 45px;
-    text-indent: -999px;
+    text-indent: -9999px;
     border: none;
     overflow: hidden;
 }

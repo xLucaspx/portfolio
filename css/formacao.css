@@ -1,0 +1,66 @@
+.formacao {
+    background-color: var(--cinza-claro);
+}
+
+.formacao__conteudo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3.5rem 0;
+    align-items: center;
+}
+
+.formacao__card {
+    background-color: var(--branco);
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 2px 5px 12px 5px #00000010;
+}
+
+.formacao__card__titulo {
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+.formacao__card__titulo--alura {
+    width: 190px;
+    height: 130px;
+    margin-top: 30px;
+    background-image: url("../img/logo-alura.png");
+}
+
+.formacao__card__titulo--senac {
+    width: 222px;
+    height: 130px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background: url("../img/logo-senac.png") no-repeat center / cover;
+}
+
+.formacao__card__item {
+    margin-bottom: 10px;
+}
+
+.formacao__link {
+    color: var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
+    margin: 50px auto 0;
+}
+
+.formacao__link:hover, .formacao__link:focus {
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+}
+
+.formacao__texto {
+    max-width: 1050px;
+    line-height: 1.8;
+}
+
+.formacao__texto--destaque {
+    font-weight: 700;
+    color: var(--cor-fonte-escura);
+}

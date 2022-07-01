@@ -1,8 +1,11 @@
 .sobre {
-    background-color: var(--cinza-claro);
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.sobre__titulo {
+    text-align: left;
 }
 
 .sobre__conteudo {
