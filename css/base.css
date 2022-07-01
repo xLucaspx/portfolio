@@ -83,6 +83,7 @@ body {
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 2px 5px 12px 5px #00000010;
+    transition: 0.3s ease-in;
 }
 
 .btn-padrao {

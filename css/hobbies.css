@@ -1,0 +1,29 @@
+.hobbies {
+    background-color: var(--cinza-claro);
+}
+
+.hobbies__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hobbies__item {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.hobbies__item:hover {
+    opacity: 70%;
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+}
+
+.hobbies__item__img {
+    margin-bottom: 5px;
+}
+
+.hobbies__item__titulo {
+    font-size: 1.1rem;
+}
