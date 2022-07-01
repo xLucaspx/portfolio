@@ -11,13 +11,8 @@
 }
 
 .formacao__card {
-    background-color: var(--branco);
     width: 450px;
     height: 350px;
-    border-radius: 10px;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 2px 5px 12px 5px #00000010;
 }
 
 .formacao__card__titulo {

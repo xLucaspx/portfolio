@@ -7,7 +7,7 @@
     --cinza-medio: #d7d9d9;
     --cinza-escuro: #333;
     --prata: #999;
-    --azul-claro: #cfdbe0;
+    --azul-claro: #dcedf5;
     --azul-medio: #2da4e7;
     --azul-escuro: #0a3e69;
     --vermelho-medio: #e33b3b;
@@ -75,6 +75,14 @@ body {
     color: var(--cor-fonte-escura);
     margin-bottom: 2rem;
     text-align: center;
+}
+
+.card {
+    text-align: center;
+    background-color: var(--branco);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 12px 5px #00000010;
 }
 
 .btn-padrao {

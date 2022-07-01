@@ -1,0 +1,51 @@
+.diferenciais {
+    background-color: var(--azul-claro);
+    text-align: center;
+}
+
+.diferenciais__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.diferenciais__item {
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+}
+
+.diferenciais__item:hover {
+    transition: 0.3s ease-in;
+    opacity: 70%;
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+}
+
+.diferenciais__item__img {
+    margin-bottom: 10px;
+}
+
+.diferenciais__item__titulo {
+    font-size: 1.1rem;
+}
+
+.softskill {
+    display: inline-block;
+    width: 30%;
+    margin: 3.5rem 1rem;
+}
+
+.softskill__titulo {
+    font-size: 1.8rem;
+    font-family: var(--fonte-titulo);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: var(--cor-fonte-escura);
+}
+
+.softskill__descricao {
+    max-width: 340px;
+    box-sizing: border-box;
+    font-weight: 300;
+}
