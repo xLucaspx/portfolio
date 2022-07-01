@@ -1,0 +1,24 @@
+.sobre {
+    background-color: var(--cinza-claro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre__conteudo {
+    max-width: 750px;
+}
+
+.sobre__texto {
+    margin-bottom: 1rem;
+}
+
+.sobre__link {
+    color: var(--cor-links);
+    text-decoration: none;
+}
+
+.sobre__link:hover, .sobre__link:focus {
+    transition: 0.5s;
+    color: var(--azul-escuro);
+}

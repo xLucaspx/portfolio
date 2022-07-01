@@ -14,7 +14,7 @@
     --vermelho-escuro: #b72e2e;
 
     --cor-links: #0084ff;
-    --cor-fonte: #666;
+    --cor-fonte: #555;
     --cor-fonte-escura: #222; 
 
 }
@@ -22,6 +22,7 @@
 body {
     font-family: "merriweather", serif;
     line-height: 1.5;
+    color: var(--cor-fonte);
 }
 
 .pularNavegacao {
@@ -58,6 +59,7 @@ body {
 .nav__link {
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: 300;
     transition: 0.5s ease-in;
     color: var(--branco);
 }
@@ -70,4 +72,6 @@ body {
 .titulo-padrao {
     font-size: 2.5rem;
     font-family: var(--fonte-titulo);
+    color: var(--cor-fonte-escura);
+    margin-bottom: 2rem;
 }
