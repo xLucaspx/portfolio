@@ -15,12 +15,6 @@
     box-sizing: border-box;
 }
 
-.diferenciais__item:hover {
-    opacity: 70%;
-    color: var(--branco);
-    background-color: var(--azul-escuro);
-}
-
 .diferenciais__item__img {
     margin-bottom: 10px;
 }

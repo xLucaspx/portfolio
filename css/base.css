@@ -10,6 +10,7 @@
     --azul-claro: #dcedf5;
     --azul-medio: #2da4e7;
     --azul-escuro: #0a3e69;
+    --rosa-claro: #ffa1be;
     --vermelho-medio: #e33b3b;
     --vermelho-escuro: #b72e2e;
 
@@ -84,6 +85,10 @@ body {
     border-radius: 10px;
     box-shadow: 2px 5px 12px 5px #00000010;
     transition: 0.3s ease-in;
+}
+
+.card:hover {
+    box-shadow: 7px 12px 18px 5px #00000025;
 }
 
 .btn-padrao {

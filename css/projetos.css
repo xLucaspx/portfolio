@@ -1,0 +1,36 @@
+.projeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.projeto__conteudo {
+    text-align: center;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.projeto__titulo {
+    font-size: 1.8rem;
+    font-family: var(--fonte-titulo);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: var(--cor-fonte-escura);
+}
+
+.projeto__descricao {
+    font-weight: 300;
+    text-align: left;
+}
+
+.projeto__link {
+    color: var(--azul-escuro);
+    border: 1px solid var(--azul-escuro);
+    margin: 20px auto 0;
+}
+
+.projeto__link:hover, .projeto__link:focus {
+    color: var(--branco);
+    background-color: var(--azul-escuro);
+}
