@@ -1,5 +1,6 @@
 .hobbies {
     background-color: var(--cinza-claro);
+    padding-bottom: 5rem;
 }
 
 .hobbies__lista {

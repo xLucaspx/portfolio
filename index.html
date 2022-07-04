@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/diferenciais.css">
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
     <a href="#conteudo-principal" class="pularNavegacao">Pular para o conteúdo principal</a> <!-- Link acessível com TAB -->
@@ -201,7 +202,7 @@
             </ul>
         </section>
         <!-- Fim hobbies -->
-        <section class="projetos container">
+        <section class="projetos container" id="secao-projetos">
             <h2 class="projetos__titulo titulo-padrao">Projetos</h2>
             <div class="projeto">
                 <img src="img/apeperia.png" alt width="700" height="450">
@@ -224,7 +225,7 @@
             <div class="projeto">
                 <img src="img/codificador-decodificador.png" alt width="700" height="450">
                 <div class="projeto__conteudo">
-                    <h3 class="projeto__titulo">Codificador/decodificador de textos</h3>
+                    <h3 class="projeto__titulo">Codificador/decodificador</h3>
                     <p class="projeto__descricao">Desenvolvido com HTML, CSS e JavaScript; primeiro challenge do programa ONE. É passível de melhoras na estilização.</p>
                     <a href="https://xlucaspx.github.io/codificador-decodificador/index.html" class="projeto__link btn-padrao" role="button" target="_blank">Ver site</a>
                     <a href="https://github.com/xLucaspx/codificador-decodificador" class="projeto__link btn-padrao" role="button" target="_blank">Ver repositório</a>
@@ -241,6 +242,38 @@
             </div>
         </section>
         <!-- Fim projetos -->
+        <section class="contato container">
+            <h2 class="contato__titulo titulo-padrao">Contato</h2>
+            <p class="contato__descricao">Quer entrar em contato comigo? <br> 
+                Preencha o formulário e envie sua mensagem: 
+            </p>
+        
+            <div class="contato__conteudo">
+                <img src="img/contato-img.png" alt width="350" height="350" class="contato__img">
+                <form action="" class="contato__form">
+                    <div class="contato__campo">
+                        <label for="contato__nome">Nome: </label>
+                        <input type="text" class="campo__texto" id="contato__nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="contato__campo">
+                        <label for="contato__email">Email: </label>
+                        <input type="email" class="campo__texto" id="contato__email" placeholder="Ex.: contato@email.com" required>
+                    </div>
+                    <div class="contato__campo">
+                        <label for="contato__assunto">Assunto: </label>
+                        <input type="text" class="campo__texto" id="contato__assunto" placeholder="Assunto da mensagem" required>
+                    </div>
+                    <div class="contato__campo">
+                        <label for="contato__mensagem">Mensagem: </label>
+                        <textarea name="mensagem" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    </div>
+                    <div class="contato__campo">
+                        <button type="submit" class="contato__btn btn-padrao">Enviar mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Fim contato -->
     </main>
 </body>
 </html>

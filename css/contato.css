@@ -1,0 +1,50 @@
+.contato {
+    background-color: var(--cinza-claro);
+}
+
+.contato__descricao {
+   text-align: center;
+   line-height: 1.8;
+   font-size: 1.2rem;
+   font-weight: 300;
+   margin-bottom: 2rem;
+}
+
+.contato__conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato__form {
+    min-width: 500px;
+    color: var(--cor-fonte-escura);
+}
+
+.contato__campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+    gap: 1rem 0;
+}
+
+.contato__campo input {
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.campo__texto {
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    max-width: 600px;
+    padding: 0.5rem;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 5px;
+    color: var(--cor-fonte);
+}
+
+.contato__btn {
+    width: 100%;
+    align-self: center;
+}

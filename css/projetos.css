@@ -25,12 +25,5 @@
 }
 
 .projeto__link {
-    color: var(--azul-escuro);
-    border: 1px solid var(--azul-escuro);
     margin: 20px auto 0;
-}
-
-.projeto__link:hover, .projeto__link:focus {
-    color: var(--branco);
-    background-color: var(--azul-escuro);
 }
