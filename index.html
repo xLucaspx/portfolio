@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
     <a href="#conteudo-principal" class="pularNavegacao">Pular para o conteúdo principal</a> <!-- Link acessível com TAB -->
@@ -242,7 +243,7 @@
             </div>
         </section>
         <!-- Fim projetos -->
-        <section class="contato container">
+        <section class="contato container" id="secao-contato">
             <h2 class="contato__titulo titulo-padrao">Contato</h2>
             <p class="contato__descricao">Quer entrar em contato comigo? <br> 
                 Preencha o formulário e envie sua mensagem: 
@@ -253,15 +254,15 @@
                 <form action="" class="contato__form">
                     <div class="contato__campo">
                         <label for="contato__nome">Nome: </label>
-                        <input type="text" class="campo__texto" id="contato__nome" placeholder="Digite seu nome" required>
+                        <input type="text" class="campo__texto" id="contato__nome" name="nome" placeholder="Digite seu nome" required>
                     </div>
                     <div class="contato__campo">
                         <label for="contato__email">Email: </label>
-                        <input type="email" class="campo__texto" id="contato__email" placeholder="Ex.: contato@email.com" required>
+                        <input type="email" class="campo__texto" id="contato__email" name="email" placeholder="Ex.: contato@email.com" required>
                     </div>
                     <div class="contato__campo">
                         <label for="contato__assunto">Assunto: </label>
-                        <input type="text" class="campo__texto" id="contato__assunto" placeholder="Assunto da mensagem" required>
+                        <input type="text" class="campo__texto" id="contato__assunto" name="assunto" placeholder="Assunto da mensagem" required>
                     </div>
                     <div class="contato__campo">
                         <label for="contato__mensagem">Mensagem: </label>
@@ -275,5 +276,21 @@
         </section>
         <!-- Fim contato -->
     </main>
+    <footer class="rodape">
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item"><a href="#secao-sobre" class="nav__link">Sobre mim</a></li>
+                <li class="nav__item"><a href="#secao-formacao" class="nav__link">Formação</a></li>
+                <li class="nav__item"><a href="#secao-diferenciais" class="nav__link">Skills & Tools</a></li>
+                <li class="nav__item"><a href="#secao-hobbies" class="nav__link">Hobbies</a></li>
+                <li class="nav__item"><a href="#secao-projetos" class="nav__link">Projetos</a></li>
+                <li class="nav__item"><a href="#secao-contato" class="nav__link">Contato</a></li>
+            </ul>
+        </nav>
+        <p class="creditos">&copy; 2022 - Lucas da Paz</p>
+        <p class="creditos">Ícones da seção <a href="#secao-diferenciais" class="rodape__link">Skills & Tools</a> por <a href="https://devicon.dev/" class="rodape__link" target="_blank">Devicon</a></p>
+        <p class="creditos">Demais ícones por <a href="https://www.flaticon.com/" class="rodape__link" target="_blank">Flaticon</a></p>
+    </footer>
+    <!-- Fim rodapé -->
 </body>
 </html>

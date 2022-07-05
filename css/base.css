@@ -16,8 +16,8 @@
 
     --cor-links: #0084ff;
     --cor-fonte: #555;
-    --cor-fonte-escura: #222; 
-
+    --cor-fonte-escura: #222;
+    --cor-rodape: #111;
 }
 
 body {
@@ -61,13 +61,13 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 300;
-    transition: 0.5s ease-in;
     color: var(--branco);
+    transition: all 0.5s;
 }
 
 .nav__link:hover, .nav__link:focus {
-    border-bottom: 2px solid var(--cor-links);
-    opacity: 60%;
+    border-bottom: 1px solid var(--cor-links);
+    opacity: 85%;
 }
 
 .titulo-padrao {
@@ -109,6 +109,7 @@ body {
     border: 1px solid var(--azul-escuro);
     padding: 1rem 2rem;
     box-shadow: 2px 5px 12px 5px #00000010;
+    cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
