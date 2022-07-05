@@ -252,25 +252,29 @@
             <div class="contato__conteudo">
                 <img src="img/contato-img.png" alt width="350" height="350" class="contato__img">
                 <form action="" class="contato__form">
-                    <div class="contato__campo">
+                    <fieldset class="contato__campo">
                         <label for="contato__nome">Nome: </label>
                         <input type="text" class="campo__texto" id="contato__nome" name="nome" placeholder="Digite seu nome" required>
-                    </div>
-                    <div class="contato__campo">
+                        <span class="contato__erro contato__erro-nome"></span>
+                    </fieldset>
+                    <fieldset class="contato__campo">
                         <label for="contato__email">Email: </label>
                         <input type="email" class="campo__texto" id="contato__email" name="email" placeholder="Ex.: contato@email.com" required>
-                    </div>
-                    <div class="contato__campo">
+                        <span class="contato__erro contato__erro-email"></span>
+                    </fieldset>
+                    <fieldset class="contato__campo">
                         <label for="contato__assunto">Assunto: </label>
                         <input type="text" class="campo__texto" id="contato__assunto" name="assunto" placeholder="Assunto da mensagem" required>
-                    </div>
-                    <div class="contato__campo">
+                        <span class="contato__erro contato__erro-assunto"></span>
+                    </fieldset>
+                    <fieldset class="contato__campo">
                         <label for="contato__mensagem">Mensagem: </label>
                         <textarea name="mensagem" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                    </div>
-                    <div class="contato__campo">
+                        <span class="contato__erro contato__erro-mensagem"></span>
+                    </fieldset>
+                    <fieldset class="contato__campo">
                         <button type="submit" class="contato__btn btn-padrao">Enviar mensagem</button>
-                    </div>
+                    </fieldset>
                 </form>
             </div>
         </section>
@@ -292,5 +296,6 @@
         <p class="creditos">Demais ícones por <a href="https://www.flaticon.com/" class="rodape__link" target="_blank">Flaticon</a></p>
     </footer>
     <!-- Fim rodapé -->
+    <script src="js/validacao-formulario.js"></script>
 </body>
 </html>

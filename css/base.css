@@ -13,6 +13,7 @@
     --rosa-claro: #ffa1be;
     --vermelho-medio: #e33b3b;
     --vermelho-escuro: #b72e2e;
+    --verde: #329542;
 
     --cor-links: #0084ff;
     --cor-fonte: #555;
@@ -110,10 +111,11 @@ body {
     padding: 1rem 2rem;
     box-shadow: 2px 5px 12px 5px #00000010;
     cursor: pointer;
+    outline: none;
     transition: 0.5s ease-in-out;
 }
 
-.btn-padrao:hover {
+.btn-padrao:hover, .btn-padrao:focus {
     transform: scale(1.1);
     box-shadow: 7px 12px 18px 5px #00000025;
     color: var(--branco);

@@ -33,17 +33,59 @@
     box-sizing: border-box;
 }
 
+.contato__campo textarea {
+    resize: none;
+}
+
 .campo__texto {
     font-size: 1rem;
     font-family: "Merriweather", serif;
     font-weight: 300;
     max-width: 600px;
     padding: 0.5rem;
+    padding-right: calc(0.5rem + 35px);
     border: 1px solid var(--azul-escuro);
     border-radius: 5px;
     color: var(--cor-fonte);
+    outline-color: var(--azul-escuro);
+}
+
+.campo__texto--valido {
+    border: 1px solid var(--verde);
+    outline-color: var(--verde);
+    background-image: url("../img/form-sucesso.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: calc(100% - 0.5rem) 50%;
+}
+
+.campo__texto--invalido {
+    border: 1px solid var(--vermelho-medio);
+    outline-color: var(--vermelho-medio);
+    background-image: url("../img/form-erro.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: calc(100% - 0.5rem) 50%;
+}
+
+.contato__erro {
+    color: var(--vermelho-medio);
+    font-weight: 700;
+    max-width: 500px;
 }
 
 .contato__btn {
     align-self: center;
+}
+
+.contato__btn:disabled {
+    color: var(--branco);
+    background-color: var(--vermelho-escuro);
+    opacity: 75%;
+    border: 1px solid var(--vermelho-escuro);
+}
+
+.contato__btn:disabled:hover, .contato__btn:disabled:focus {
+    cursor: initial;
+    transform: none;
 }
