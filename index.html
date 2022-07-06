@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/contato__form.css">
     <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
@@ -55,6 +56,7 @@
                     <li class="apresentacao__item"><a href="https://www.linkedin.com/in/xlucaspx/" class="apresentacao__link apresentacao__link--linkedin" title="Lucas da Paz | LinkedIn" target="_blank">LinkedIn</a></li>
                     <li class="apresentacao__item"><a href="https://www.instagram.com/luacspaz/" class="apresentacao__link apresentacao__link--instagram" title="Lucas da Paz | Instagram" target="_blank">Instagram</a></li>
                     <li class="apresentacao__item"><a href="https://twitter.com/luacspaz" class="apresentacao__link apresentacao__link--twitter" title="Lucas da Paz | Twitter" target="_blank">Twitter</a></li>
+                    <li class="apresentacao__item"><a href="mailto:xlucaspx@gmail.com" class="apresentacao__link apresentacao__link--mail" title="Lucas da Paz | Gmail" target="_blank">Gmail</a></li>
                 </ul>
             </div>
             <img src="img/banner.png" alt width="350" height="350" class="apresentacao__img">
@@ -77,7 +79,7 @@
                     <h3 class="formacao__card__titulo formacao__card__titulo--alura">Alura</h3>
                     <ul>
                         <li class="formacao__card__item">Formação Iniciante em Programação - ONE</li>
-                        <li class="formacao__card__item">Formação Business Agility - ONE</li>
+                        <li class="formacao__card__item">Formação Business Agility - One</li>
                     </ul>
                     <a href="https://cursos.alura.com.br/user/xlucaspx/fullCertificate/9edae1f0aa4ca9614084ec8231712e5e" class="formacao__link btn-padrao" role="button" target="_blank">Certificado completo</a>
                 </div>
@@ -245,37 +247,84 @@
         <!-- Fim projetos -->
         <section class="contato container" id="secao-contato">
             <h2 class="contato__titulo titulo-padrao">Contato</h2>
-            <p class="contato__descricao">Quer entrar em contato comigo? <br> 
-                Preencha o formulário e envie sua mensagem: 
+            <p class="contato__descricao">Quer entrar em contato comigo? <br>
+                Mande uma mensagem em qualquer rede social ou <br>
+                preencha o formulário e envie sua mensagem: 
             </p>
+
+            <div class="contato__redes">
+                <ul class="redes__lista">
+                    <li class="redes__item card">
+                        <a href="https://github.com/xLucaspx" class="redes__link redes__link--github" title="Lucas da Paz | GitHub" 
+                        target="_blank">
+                            <img src="img/logo-github.svg" alt width="45" height="45" class="redes__img redes__img--github">
+                            Github | xLucaspx
+                        </a>
+                    </li>
+                    <li class="redes__item card">
+                        <a href="https://www.linkedin.com/in/xlucaspx/" class="redes__link" title="Lucas da Paz | 
+                        LinkedIn" target="_blank">
+                            <img src="img/logo-linkedin.svg" alt width="45" height="45" class="redes__img">
+                            LinkedIn | Lucas da Paz
+                        </a>
+                    </li>
+                    <li class="redes__item card">
+                        <a href="https://www.instagram.com/luacspaz/" class="redes__link" title="Lucas da Paz | 
+                        Instagram" target="_blank">
+                            <img src="img/logo-instagram.png" alt width="45" height="45" class="redes__img">
+                            Instagram | @luacspaz
+                        </a>
+                    </li>
+                    <li class="redes__item card">
+                        <a href="https://twitter.com/luacspaz" class="redes__link" title="Lucas da Paz | Twitter" 
+                        target="_blank">
+                            <img src="img/logo-twitter.svg" alt width="45" height="45" class="redes__img">
+                            Twitter | @luacspaz
+                        </a>
+                    </li>
+                    <li class="redes__item card">
+                        <a href="mailto:xlucaspx@gmail.com" class="redes__link" title="Lucas da Paz | Gmail" 
+                        target="_blank">
+                            <img src="img/logo-email.png" alt width="45" height="45" class="redes__img">
+                            xlucaspx@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="contato__btn btn-padrao">Ver formulário</button>
         
-            <div class="contato__conteudo">
-                <img src="img/contato-img.png" alt width="350" height="350" class="contato__img">
-                <form action="mailto:xlucaspx@gmail.com" method="get" class="contato__form">
-                    <fieldset class="contato__campo">
-                        <label for="contato__nome">Nome: </label>
-                        <input type="text" class="campo__texto" id="contato__nome" name="name" placeholder="Digite seu nome" required>
-                        <span class="contato__erro contato__erro-nome"></span>
-                    </fieldset>
-                    <fieldset class="contato__campo">
-                        <label for="contato__email">Email: </label>
-                        <input type="email" class="campo__texto" id="contato__email" name="email" placeholder="Ex.: contato@email.com" required>
-                        <span class="contato__erro contato__erro-email"></span>
-                    </fieldset>
-                    <fieldset class="contato__campo">
-                        <label for="contato__assunto">Assunto: </label>
-                        <input type="text" class="campo__texto" id="contato__assunto" name="subject" placeholder="Assunto da mensagem" required>
-                        <span class="contato__erro contato__erro-assunto"></span>
-                    </fieldset>
-                    <fieldset class="contato__campo">
-                        <label for="contato__mensagem">Mensagem: </label>
-                        <textarea name="body" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                        <span class="contato__erro contato__erro-mensagem"></span>
-                    </fieldset>
-                    <fieldset class="contato__campo">
-                        <button type="submit" class="contato__btn btn-padrao">Enviar mensagem</button>
-                    </fieldset>
-                </form>
+            <div class="contato__form__conteudo">
+                <div class="contato__form__body">
+                    <button class="contato__form__btn-fechar">X</button>
+
+                    <form action="mailto:xlucaspx@gmail.com" method="get" class="contato__form">
+                        <fieldset class="contato__campo">
+                            <label for="contato__nome">Nome: </label>
+                            <input type="text" class="campo__texto" id="contato__nome" name="name" placeholder="Digite seu nome" required>
+                            <span class="contato__erro contato__erro-nome"></span>
+                        </fieldset>
+                        <fieldset class="contato__campo">
+                            <label for="contato__email">Email: </label>
+                            <input type="email" class="campo__texto" id="contato__email" name="email" placeholder="Ex.: contato@email.com" required>
+                            <span class="contato__erro contato__erro-email"></span>
+                        </fieldset>
+                        <fieldset class="contato__campo">
+                            <label for="contato__assunto">Assunto: </label>
+                            <input type="text" class="campo__texto" id="contato__assunto" name="subject" placeholder="Assunto da mensagem" required>
+                            <span class="contato__erro contato__erro-assunto"></span>
+                        </fieldset>
+                        <fieldset class="contato__campo">
+                            <label for="contato__mensagem">Mensagem: </label>
+                            <textarea name="body" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                            <span class="contato__erro contato__erro-mensagem"></span>
+                        </fieldset>
+                        <fieldset class="contato__campo">
+                            <button type="submit" class="form__btn btn-padrao">Enviar mensagem</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="contato__form-overlay"></div>
             </div>
         </section>
         <!-- Fim contato -->
@@ -296,6 +345,7 @@
         <p class="creditos">Demais ícones por <a href="https://www.flaticon.com/" class="rodape__link" target="_blank">Flaticon</a></p>
     </footer>
     <!-- Fim rodapé -->
+    <script src="js/formulario-contato.js"></script>
     <script src="js/validacao-formulario.js"></script>
 </body>
 </html>

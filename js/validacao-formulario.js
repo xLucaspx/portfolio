@@ -2,7 +2,7 @@ const campoNome = document.querySelector("#contato__nome");
 const campoEmail = document.querySelector("#contato__email");
 const campoAssunto = document.querySelector("#contato__assunto");
 const campoMensagem = document.querySelector("#contato__mensagem");
-const btnEnviar = document.querySelector(".contato__btn");
+const btnEnviar = document.querySelector(".form__btn");
 const inputs = document.querySelectorAll(".campo__texto");
 
 campoNome.addEventListener("input", function() {
@@ -108,3 +108,7 @@ inputs.forEach(function(input) {
         }
     })
 });
+
+btnEnviar.onclick = function() {
+    formulario.classList.remove("contato__form__conteudo--aberto");
+}
