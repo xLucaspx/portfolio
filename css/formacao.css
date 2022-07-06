@@ -61,6 +61,7 @@ and (max-width: 767px) {
         width: auto;
         min-width: 300px;
         min-height: 410px;
+        max-width: 350px;
         box-sizing: border-box;
     }
 }
