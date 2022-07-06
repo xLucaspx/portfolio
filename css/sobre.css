@@ -26,6 +26,21 @@
     color: var(--azul-escuro);
 }
 
+.sobre__link--curriculo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-titulo);
+}
+
+.sobre__link--curriculo::after {
+    content: url("../img/arrow.png");
+    margin-left: 5px;
+}
+
+.sobre__link--curriculo:hover::after, .sobre__link--curriculo:focus::after {
+    transition: 0.5s;
+    filter: brightness(20%) saturate(80%);
+}
+
 @media screen 
 and (min-width: 320px) 
 and (max-width: 767px) {
