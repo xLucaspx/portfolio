@@ -89,3 +89,66 @@
     cursor: initial;
     transform: none;
 }
+
+@media screen 
+and (min-width: 320px) 
+and (max-width: 374px) {
+    .contato__campo {
+        width: 300px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen 
+and (min-width: 320px) 
+and (max-width: 767px) {
+    .contato__descricao {
+        line-height: 1.5;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .contato__conteudo {
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+    }
+
+    .contato__img {
+        order: 1;
+        width: 200px;
+        height: 200px;
+        margin-top: 1rem;
+    }
+
+    .contato__form {
+        min-width: fit-content;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    .contato__campo {
+        margin-bottom: 0.75rem;
+    }
+
+   .campo__texto {
+        box-sizing: border-box;
+        margin: 0 auto 0.5rem;
+        width: 100%;
+   }
+}
+
+@media screen 
+and (min-width: 767px) 
+and (max-width: 1023px) {
+    .contato__conteudo {
+        flex-direction: column;
+    }
+
+    .contato__img {
+        width: 250px;
+        height: 250px;
+        order: 1;
+        margin-top: 1rem;
+    }
+}

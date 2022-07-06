@@ -69,3 +69,41 @@
 .apresentacao__img {
     border-radius: 100%;
 }
+
+@media screen 
+and (min-width: 320px) 
+and (max-width: 374px) {
+    .apresentacao {
+        flex-direction: column;
+        padding-top: 15rem;
+    }
+}
+
+@media screen 
+and (min-width: 320px) 
+and (max-width: 767px) {
+    .apresentacao {
+        flex-direction: column;
+    }
+
+    .apresentacao__titulo {
+        font-size: 2rem;
+        margin: 1.2rem auto;
+    }
+
+    .apresentacao__img {
+        order: -1;
+        width: 120px;
+        height: 120px;
+        align-self: flex-start;
+    }
+}
+
+@media screen 
+and (min-width: 767px) 
+and (max-width: 1024px) {
+    .apresentacao__img {
+        width: 220px;
+        height: 220px;
+    }
+}

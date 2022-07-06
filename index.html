@@ -206,7 +206,7 @@
         <section class="projetos container" id="secao-projetos">
             <h2 class="projetos__titulo titulo-padrao">Projetos</h2>
             <div class="projeto">
-                <img src="img/apeperia.png" alt width="700" height="450">
+                <img src="img/apeperia.png" alt width="700" height="450" class="projeto__img">
                 <div class="projeto__conteudo">
                     <h3 class="projeto__titulo">Apeperia</h3>
                     <p class="projeto__descricao">Desenvolvido com HTML, CSS e JavaScript; foi projetado para ser acessível para todos os usuários. Ainda necessita de validação no formulário.</p>
@@ -221,10 +221,10 @@
                     <a href="https://xlucaspx.github.io/challenge-forca/" class="projeto__link btn-padrao" role="button" target="_blank">Ver site</a>
                     <a href="https://github.com/xLucaspx/challenge-forca" class="projeto__link btn-padrao" role="button" target="_blank">Ver repositório</a>
                 </div>
-                <img src="img/jogo-forca.png" alt width="700" height="450">
+                <img src="img/jogo-forca.png" alt width="700" height="450" class="projeto__img">
             </div>
             <div class="projeto">
-                <img src="img/codificador-decodificador.png" alt width="700" height="450">
+                <img src="img/codificador-decodificador.png" alt width="700" height="450" class="projeto__img">
                 <div class="projeto__conteudo">
                     <h3 class="projeto__titulo">Codificador/decodificador</h3>
                     <p class="projeto__descricao">Desenvolvido com HTML, CSS e JavaScript; primeiro challenge do programa ONE. É passível de melhoras na estilização.</p>
@@ -239,7 +239,7 @@
                     <a href="https://xlucaspx.github.io/barbearia-alura/index.html" class="projeto__link btn-padrao" role="button" target="_blank">Ver site</a>
                     <a href="https://github.com/xLucaspx/barbearia-alura" class="projeto__link btn-padrao" role="button" target="_blank">Ver repositório</a>
                 </div>
-                <img src="img/barbearia-alura.png" alt width="700" height="450">
+                <img src="img/barbearia-alura.png" alt width="700" height="450" class="projeto__img">
             </div>
         </section>
         <!-- Fim projetos -->
@@ -251,10 +251,10 @@
         
             <div class="contato__conteudo">
                 <img src="img/contato-img.png" alt width="350" height="350" class="contato__img">
-                <form action="" class="contato__form">
+                <form action="mailto:xlucaspx@gmail.com" method="get" class="contato__form">
                     <fieldset class="contato__campo">
                         <label for="contato__nome">Nome: </label>
-                        <input type="text" class="campo__texto" id="contato__nome" name="nome" placeholder="Digite seu nome" required>
+                        <input type="text" class="campo__texto" id="contato__nome" name="name" placeholder="Digite seu nome" required>
                         <span class="contato__erro contato__erro-nome"></span>
                     </fieldset>
                     <fieldset class="contato__campo">
@@ -264,12 +264,12 @@
                     </fieldset>
                     <fieldset class="contato__campo">
                         <label for="contato__assunto">Assunto: </label>
-                        <input type="text" class="campo__texto" id="contato__assunto" name="assunto" placeholder="Assunto da mensagem" required>
+                        <input type="text" class="campo__texto" id="contato__assunto" name="subject" placeholder="Assunto da mensagem" required>
                         <span class="contato__erro contato__erro-assunto"></span>
                     </fieldset>
                     <fieldset class="contato__campo">
                         <label for="contato__mensagem">Mensagem: </label>
-                        <textarea name="mensagem" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                        <textarea name="body" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
                         <span class="contato__erro contato__erro-mensagem"></span>
                     </fieldset>
                     <fieldset class="contato__campo">
