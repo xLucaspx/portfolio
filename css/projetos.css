@@ -59,7 +59,7 @@ and (max-width: 767px) {
 
 @media screen 
 and (min-width: 768px) 
-and (max-width: 1023px) {
+and (max-width: 1100px) {
     .projeto {
         flex-direction: column;
         margin-bottom: 3.5rem;

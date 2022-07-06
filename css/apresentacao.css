@@ -105,7 +105,7 @@ and (max-width: 767px) {
 
 @media screen 
 and (min-width: 767px) 
-and (max-width: 1024px) {
+and (max-width: 1100px) {
     .apresentacao__img {
         width: 220px;
         height: 220px;

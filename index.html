@@ -248,48 +248,47 @@
         <section class="contato container" id="secao-contato">
             <h2 class="contato__titulo titulo-padrao">Contato</h2>
             <p class="contato__descricao">Quer entrar em contato comigo? <br>
-                Mande uma mensagem em qualquer rede social ou <br>
-                preencha o formulário e envie sua mensagem: 
+                Mande uma mensagem em qualquer link abaixo
             </p>
 
             <div class="contato__redes">
                 <ul class="redes__lista">
                     <li class="redes__item card">
                         <a href="https://www.linkedin.com/in/xlucaspx/" class="redes__link" title="Lucas da Paz | 
-                        LinkedIn" target="_blank">
+                        LinkedIn" target="_blank" aria-label="LinkedIn">
                             <img src="img/logo-linkedin.svg" alt width="45" height="45" class="redes__img">
                             LinkedIn | Lucas da Paz
                         </a>
                     </li>
                     <li class="redes__item card">
                         <a href="https://www.instagram.com/luacspaz/" class="redes__link" title="Lucas da Paz | 
-                        Instagram" target="_blank">
+                        Instagram" target="_blank" aria-label="Instagram">
                             <img src="img/logo-instagram.png" alt width="45" height="45" class="redes__img">
                             Instagram | @luacspaz
                         </a>
                     </li>
                     <li class="redes__item card">
                         <a href="https://twitter.com/luacspaz" class="redes__link" title="Lucas da Paz | Twitter" 
-                        target="_blank">
+                        target="_blank" aria-label="Twitter">
                             <img src="img/logo-twitter.svg" alt width="45" height="45" class="redes__img">
                             Twitter | @luacspaz
                         </a>
                     </li>
                     <li class="redes__item card">
                         <a href="mailto:xlucaspx@gmail.com" class="redes__link" title="Lucas da Paz | Gmail" 
-                        target="_blank">
+                        target="_blank" aria-label="Gmail">
                             <img src="img/logo-email.png" alt width="45" height="45" class="redes__img">
                             xlucaspx@gmail.com
                         </a>
                     </li>
                 </ul>
             </div>
-
-            <button class="contato__btn btn-padrao">Ver formulário</button>
+            <p class="contato__descricao contato--desktop">Ou preencha o formulário e envie sua mensagem: </p>
+            <button class="contato__btn btn-padrao contato--desktop">Ver formulário</button>
         
             <div class="contato__form__conteudo">
                 <div class="contato__form__body">
-                    <button class="contato__form__btn-fechar">X</button>
+                    <button class="contato__form__btn-fechar" aria-label="Fechar">X</button>
 
                     <form action="mailto:xlucaspx@gmail.com?" method="get" class="contato__form">
                         <fieldset class="contato__campo">
@@ -312,6 +311,7 @@
                             <textarea name="body" class="campo__texto" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
                             <span class="contato__erro contato__erro-mensagem"></span>
                         </fieldset>
+                        <p class="contato__erro">Para habilitar o envio do formulário os dados inseridos devem estar corretos</p>
                         <fieldset class="contato__campo">
                             <button type="submit" class="form__btn btn-padrao">Enviar mensagem</button>
                         </fieldset>

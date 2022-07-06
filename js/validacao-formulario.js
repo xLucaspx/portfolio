@@ -108,3 +108,7 @@ inputs.forEach(function(input) {
         }
     })
 });
+
+btnEnviar.onclick = function() {
+    formulario.classList.remove("contato__form__conteudo--aberto");
+}
