@@ -8,11 +8,17 @@
     flex-wrap: wrap;
     gap: 3.5rem 0;
     align-items: center;
+    line-height: 1.8;
 }
 
 .formacao__card {
     width: 450px;
     height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
 }
 
 .formacao__card__titulo {
@@ -21,31 +27,19 @@
 }
 
 .formacao__card__titulo--alura {
-    width: 190px;
+    width: 222px;
     height: 130px;
-    margin-top: 30px;
-    background-image: url("../img/logo-alura.png");
+    background: url("../img/logo-alura.png") no-repeat center / contain;
 }
 
 .formacao__card__titulo--senac {
     width: 222px;
     height: 130px;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    background: url("../img/logo-senac.png") no-repeat center / cover;
-}
-
-.formacao__card__item {
-    margin-bottom: 10px;
-}
-
-.formacao__link {
-    margin: 50px auto 0;
+    background: url("../img/logo-senac.png") no-repeat center / contain;
 }
 
 .formacao__texto {
     max-width: 1050px;
-    line-height: 1.8;
 }
 
 .formacao__texto--destaque {
