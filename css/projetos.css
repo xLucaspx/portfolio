@@ -1,7 +1,7 @@
 .projeto {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 5rem;
 }
 
@@ -26,6 +26,10 @@
 
 .projeto__link {
     margin: 20px auto 0;
+}
+
+.projeto:nth-child(odd) .projeto__img{
+    order: -1;
 }
 
 @media screen 

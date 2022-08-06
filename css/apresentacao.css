@@ -45,23 +45,23 @@
 }
 
 .apresentacao__link--github {
-    background-image: url("../img/logo-github.svg");
+    background-image: url("../img/redes/logo-github.svg");
 }
 
 .apresentacao__link--linkedin {
-    background-image: url("../img/logo-linkedin.svg");
+    background-image: url("../img/redes/logo-linkedin.svg");
 }
 
 .apresentacao__link--instagram {
-    background-image: url("../img/logo-instagram.png");
+    background-image: url("../img/redes/logo-instagram.png");
 }
 
 .apresentacao__link--twitter {
-    background-image: url("../img/logo-twitter.svg");
+    background-image: url("../img/redes/logo-twitter.svg");
 }
 
 .apresentacao__link--mail {
-    background-image: url("../img/logo-email.png");
+    background-image: url("../img/redes/logo-email.png");
 }
 
 .apresentacao__link:hover, .apresentacao__link:focus {

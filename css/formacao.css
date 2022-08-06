@@ -29,13 +29,13 @@
 .formacao__card__titulo--alura {
     width: 222px;
     height: 130px;
-    background: url("../img/logo-alura.png") no-repeat center / contain;
+    background: url("../img/formacao/logo-alura.png") no-repeat center / contain;
 }
 
 .formacao__card__titulo--senac {
     width: 222px;
     height: 130px;
-    background: url("../img/logo-senac.png") no-repeat center / contain;
+    background: url("../img/formacao/logo-senac.png") no-repeat center / contain;
 }
 
 .formacao__texto {
