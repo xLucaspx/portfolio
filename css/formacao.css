@@ -39,7 +39,8 @@
 }
 
 .formacao__texto {
-    max-width: 1050px;
+    width: 1050px;
+    text-align: center;
 }
 
 .formacao__texto--destaque {
