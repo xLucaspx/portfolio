@@ -20,14 +20,14 @@
 .redes__lista {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .redes__item {
     width: 250px;
     height: 175px;
     box-sizing: border-box;
-    color: var(--cor-links);
+    color: var(--azul-escuro);
 }
 
 .redes__item:hover {

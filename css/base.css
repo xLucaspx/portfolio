@@ -8,7 +8,7 @@
     --cinza-escuro: #333;
     --prata: #999;
     --azul-claro: #dcedf5;
-    --azul-medio: #2da4e7;
+    --azul-medio: #37beff;
     --azul-escuro: #0a3e69;
     --rosa-claro: #ffa1be;
     --vermelho-medio: #e33b3b;
@@ -174,5 +174,12 @@ and (max-width: 1100px) {
     .scrollTop {
         bottom: 0.5rem;
         right: 0.5rem;
+    }
+}
+
+@media screen 
+and (min-width: 1780px) {
+    .container {
+        padding: 3rem 10%;
     }
 }

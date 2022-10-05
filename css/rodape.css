@@ -13,12 +13,13 @@
 }
 
 .rodape__link {
-    color: var(--cor-links);
+    color: var(--azul-medio);
     text-decoration: none;
     transition: all 0.5s;
 }
 
 .rodape__link:hover, .rodape__link:focus {
+    color: var(--cor-links);
     border-bottom: 1px solid var(--cor-links);
     opacity: 85%;
 }

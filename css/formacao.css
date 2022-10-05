@@ -4,7 +4,7 @@
 
 .formacao__conteudo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 3.5rem 0;
     align-items: center;
@@ -38,7 +38,7 @@
     background: url("../img/formacao/logo-senac.png") no-repeat center / contain;
 }
 
-.formacao__texto {
+.formacao__div-texto {
     width: 1050px;
     text-align: center;
 }
