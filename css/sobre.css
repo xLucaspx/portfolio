@@ -55,6 +55,7 @@ and (max-width: 767px) {
     .sobre__img {
         width: 200px;
         height: 200px;
+        margin-top: 1rem;
     }
 }
 

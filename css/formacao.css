@@ -19,6 +19,7 @@
     justify-content: space-evenly;
     gap: 1rem;
     align-items: center;
+    text-align: left;
 }
 
 .formacao__card__titulo {
@@ -43,6 +44,10 @@
     text-align: center;
 }
 
+.formacao__texto {
+    margin: 0 auto;
+}
+
 .formacao__texto--destaque {
     font-weight: 700;
     color: var(--cor-fonte-escura);
@@ -58,6 +63,10 @@ and (max-width: 767px) {
         min-height: 410px;
         max-width: 350px;
         box-sizing: border-box;
+    }
+
+    .formacao__texto {
+        text-align: left;
     }
 }
 
