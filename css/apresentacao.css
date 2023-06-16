@@ -72,6 +72,8 @@
 
 .apresentacao__img {
     border-radius: 100%;
+    float: left;
+    object-fit: cover;
 }
 
 @media screen 
