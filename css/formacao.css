@@ -1,85 +1,83 @@
 .formacao {
-    background-color: var(--cinza-claro);
+	background-color: var(--cinza-claro);
 }
 
 .formacao__conteudo {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 3.5rem 0;
-    align-items: center;
-    line-height: 1.8;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 3.5rem 0;
+	align-items: center;
+	line-height: 1.8;
 }
 
 .formacao__card {
-    width: 450px;
-    height: 410px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 1rem;
-    align-items: center;
-    text-align: left;
+	width: 450px;
+	height: 410px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 1rem;
+	align-items: center;
+	text-align: left;
 }
 
 .formacao__card__titulo {
-    text-indent: -9999px;
-    margin: 0 auto;
+	text-indent: -9999px;
+	margin: 0 auto;
+	width: 222px;
+	height: 130px;
 }
 
 .formacao__card__titulo--alura {
-    width: 222px;
-    height: 130px;
-    background: url("../img/formacao/logo-alura.png") no-repeat center / contain;
+	background: url("../img/formacao/logo-alura.png") no-repeat center / contain;
+}
+
+.formacao__card__titulo--pucrs {
+	background: url("../img/formacao/logo-pucrs.png") no-repeat center / contain;
 }
 
 .formacao__card__titulo--senac {
-    width: 222px;
-    height: 130px;
-    background: url("../img/formacao/logo-senac.png") no-repeat center / contain;
+	background: url("../img/formacao/logo-senac.png") no-repeat center / contain;
 }
 
 .formacao__div-texto {
-    width: 1050px;
-    text-align: center;
+	width: 1050px;
+	text-align: center;
 }
 
 .formacao__texto {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .formacao__texto--destaque {
-    font-weight: 700;
-    color: var(--cor-fonte-escura);
+	font-weight: 700;
+	color: var(--cor-fonte-escura);
 }
 
-@media screen 
-and (min-width: 320px) 
-and (max-width: 767px) {
-    .formacao__card {
-        height: auto;
-        width: auto;
-        min-width: 300px;
-        min-height: 410px;
-        max-width: 350px;
-        box-sizing: border-box;
-    }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.formacao__card {
+		height: auto;
+		width: auto;
+		min-width: 300px;
+		min-height: 410px;
+		max-width: 350px;
+		box-sizing: border-box;
+	}
 
-    .formacao__texto {
-        text-align: left;
-    }
+	.formacao__texto {
+		text-align: left;
+	}
 }
 
-@media screen 
-and (min-width: 767px) 
-and (max-width: 1100px) {
-    .formacao__card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+	.formacao__card {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
 
-    .formacao__texto {
-        max-width: 575px;
-    }
+	.formacao__texto {
+		max-width: 575px;
+	}
 }

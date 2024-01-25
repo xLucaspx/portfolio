@@ -1,115 +1,127 @@
 .apresentacao {
-    background: url("../img/bg.png") no-repeat center / cover;
-    padding-top: 12rem;
-    color: var(--branco);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	background: url("../img/bg.png") no-repeat center / cover;
+	padding-top: 12rem;
+	color: var(--branco);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .apresentacao__conteudo {
-    max-width: 700px;
+	max-width: 700px;
 }
 
 .apresentacao__titulo {
-    font-size: 2.5rem;
-    font-family: var(--fonte-titulo);
-    font-weight: 700;
-    margin-bottom: 2rem;
+	font-size: 2.5rem;
+	font-family: var(--fonte-titulo);
+	font-weight: 700;
+	margin-bottom: 2rem;
 }
 
 .apresentacao__descricao {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
 }
 
 .apresentacao__texto {
-    font-weight: 300;
-    margin-bottom: 1.5rem;
+	font-weight: 300;
+	margin-bottom: 1.5rem;
 }
 
 .apresentacao__lista {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    max-width: 500px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 500px;
 }
 
 .apresentacao__link {
-    display: block;
-    width: 45px;
-    height: 45px;
-    text-indent: -9999px;
-    border: none;
-    overflow: hidden;
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	border: none;
+	overflow: hidden;
 }
 
 .apresentacao__link--github {
-    background-image: url("../img/redes/logo-github.svg");
+	content: url("../img/redes/logo-github.svg");
 }
 
 .apresentacao__link--linkedin {
-    background-image: url("../img/redes/logo-linkedin.svg");
+	content: url("../img/redes/logo-linkedin.svg");
 }
 
 .apresentacao__link--instagram {
-    background-image: url("../img/redes/logo-instagram.png");
+	content: url("../img/redes/logo-instagram.svg");
+}
+
+.apresentacao__link--goodreads {
+	content: url("../img/redes/logo-goodreads.svg");
+}
+
+.apresentacao__link--medium {
+	content: url("../img/redes/logo-medium.svg");
 }
 
 .apresentacao__link--twitter {
-    background-image: url("../img/redes/logo-twitter.svg");
+	content: url("../img/redes/logo-twitter.svg");
 }
 
 .apresentacao__link--mail {
-    background-image: url("../img/redes/logo-email.png");
+	content: url("../img/redes/logo-email.svg");
 }
 
-.apresentacao__link:hover, .apresentacao__link:focus {
-    transition: 0.5s ease-in-out;
-    transform: scale(1.1);
-    opacity: 75%;       
+.apresentacao__link:hover,
+.apresentacao__link:focus {
+	transition: 0.5s ease-in-out;
+	transform: scale(1.1);
+	opacity: 75%;
 }
 
 .apresentacao__img {
-    border-radius: 100%;
-    float: left;
-    object-fit: cover;
+	border-radius: 100%;
+	float: left;
+	object-fit: cover;
 }
 
-@media screen 
-and (min-width: 320px) 
-and (max-width: 374px) {
-    .apresentacao {
-        flex-direction: column;
-        padding-top: 15rem;
-    }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+	.apresentacao {
+		flex-direction: column;
+		padding-top: 15rem;
+	}
+
+	.apresentacao__link {
+		width: 40px;
+		height: 40px;
+	}
 }
 
-@media screen 
-and (min-width: 320px) 
-and (max-width: 767px) {
-    .apresentacao {
-        flex-direction: column;
-    }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.apresentacao {
+		flex-direction: column;
+	}
 
-    .apresentacao__titulo {
-        font-size: 2rem;
-        margin: 1.2rem auto;
-    }
+	.apresentacao__titulo {
+		font-size: 2rem;
+		margin: 1.2rem auto;
+	}
 
-    .apresentacao__img {
-        order: -1;
-        width: 120px;
-        height: 120px;
-        align-self: flex-start;
-    }
+	.apresentacao__link {
+		width: 40px;
+		height: 40px;
+	}
+
+	.apresentacao__img {
+		order: -1;
+		width: 120px;
+		height: 120px;
+		align-self: flex-start;
+	}
 }
 
-@media screen 
-and (min-width: 767px) 
-and (max-width: 1100px) {
-    .apresentacao__img {
-        width: 220px;
-        height: 220px;
-    }
+@media screen and (min-width: 767px) and (max-width: 1100px) {
+	.apresentacao__img {
+		width: 220px;
+		height: 220px;
+	}
 }
