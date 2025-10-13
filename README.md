@@ -1,5 +1,14 @@
 # Portfolio | Lucas da Paz
 
+## To do
+
+Além de uma gigantesca refatoração, poderia melhorar o seguinte:
+
+- [ ] Programar o valor da idade (`now() - birth()`);
+- [ ] Ajustar (_remover_) formulário de contato.
+
+---
+
 Site desenvolvido utilizando HTML, CSS e JavaScript.
 Tentei utilizar ao máximo as boas práticas de programação e fundamentos de acessibilidade web que aprendi até agora.
 
